@@ -1,0 +1,73 @@
+class Student:
+    student_id = ""
+    first_name = ""
+    last_name = ""
+    subjects = ""
+    address = ""
+    state = ""
+    postcode = ""
+
+    def __init__(self, student_id, first_name, last_name, subjects, address):
+        self.student_id = student_id
+        self.first_name = first_name
+        self.last_name = last_name
+        self.subjects = subjects
+        self.address = address
+
+
+print("Student 1 Results")
+print("------------------------------------------------------------------------------------------------------------")
+SubjectsA = {
+    "Maths:": 34,
+    "English:": 89,
+    "French:": 77,
+    "Chemistry:": 55,
+}
+for x, y in SubjectsA.items():
+    print(x, y)
+
+print("Student 1 Details")
+print("---------------------------------------------------------------------------------------------------------------")
+student1_dictionary = {
+    "Student_ID:": "19191",
+    "First Name:": "Jack",
+    "Last Name:": "Sun",
+    "Address:": "4 apple street",
+    "State:": "VIC",
+    "Postcode:": "3000",
+
+}
+print("Student 1 Details")
+for x, y in student1_dictionary.items():
+    print(x, y)
+
+print("Student 2 Results")
+print("------------------------------------------------------------------------------------------------------------")
+SubjectsB = {
+    "Physics:": 34,
+    "Design:": 89,
+    "Italian:": 77,
+    "Programming:": 55,
+}
+for x, y in SubjectsB.items():
+    print(x, y)
+
+
+
+print("Student 2 Details")
+print("---------------------------------------------------------------------------------------------------------------")
+student2_dictionary = {
+    "Student_ID:": "19193",
+    "First Name:": "Bob",
+    "Last Name:": "Blue",
+    "Address:": "4 Guava street",
+    "State:": "NSW",
+    "Postcode:": "3001",
+
+}
+print("Student 1 Details")
+for x, y in student1_dictionary.items():
+    print(x, y)
+
+
+
